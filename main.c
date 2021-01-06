@@ -4,25 +4,23 @@
 int main()
 {
 
-int a;
-int b;
-int c;
+int a = 20;
+int b = 5;
 
-printf("정수를 입력하세요: ");
-scanf("%d", &a);
-c = a % 7;
+
 
   
-printf("%d\n", c == 5);
-c = a % 3;
-printf("%d\n", c == 0);
-c = a % 2;
-printf("%d\n", c != 0);
-c = a % 3;
-printf("%d\n", c == 0 && a%2==0);
-
-printf("%d\n", (a/4 || a/7) == 0);
-
+a+=4;
+printf("a = %d\n", a);
+a = 20;
+a-=8;
+printf("a = %d\n", a);
+a = 20;
+a-=9;
+printf("a = %d\n", a);
+a = 20;
+a+=101;
+printf("a = %d\n", a);
 
   
 return 0;
