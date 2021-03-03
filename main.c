@@ -12,9 +12,9 @@ int main()
   {
     printf("%d\t", num[i]);
   }
-  for (i=0;i<=4;i++)
+  for (j=0;j<=4;j++)
   {
-    printf("%d\t", page[i]);
+    printf("%d\t", page[j]);
   }
   return 0;
 }
