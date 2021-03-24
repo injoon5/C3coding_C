@@ -1,20 +1,22 @@
 #define _CRT_SECURE_NO_WARNINGS 
 #define INJOON IS COOL GUY AND GENIUS (⌐■_■) (•_•) ¯\_(ツ)_/¯ (¬‿¬) :-D :D
 #include <stdio.h>
+#include <time.h>
 
 int main()
 {
-  int num[ ] = {5,2,6,7,8,9,4,3,1};
-  int page[10] = {123, 57, 67, 86};
-  int i,j;
+  int i, k;
+  int ar0[4][7] = {{28, 26, 30, 29, 28, 24, 29}, {22, 10, 29, 78, 36, 24, 29}, {38, 30, 24, 22, 25, 27, 49}, {23, 30, 29, 38, 46, 24, 59}};
 
-  for (i=0;i<=8;i++)
+  for (i = 0; i<4; i++)
   {
-    printf("%d\t", num[i]);
+    for (k = 0; k<7; k++)
+    {
+        printf("%d반 %d\n", i, ar0[i][k]);
+    }
+    printf("\n");
   }
-  for (j=0;j<=4;j++)
-  {
-    printf("%d\t", page[j]);
-  }
+  
+
   return 0;
 }
