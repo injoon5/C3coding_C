@@ -3,19 +3,18 @@
 #include <stdio.h>
 #include <time.h>
 
-int maisafsdfsdafnaa()
+int maijjjn()
 {
-  int a;   double b;  char c;
-  int *pa;   double *pb;  char *pc;
+  int i, k;
+  int ar0[6][5] = {{23, 22, 27, 21, 24}, {21, 22, 25, 24, 23}, {20, 23, 22, 21, 24}, {25, 26, 24, 27, 28}, {26, 24, 28, 29, 26}, {27, 28, 29, 26, 27}};
 
-  a = 153; b = 12.7; c='J';
-  pa = &a; pb = &b; pc = &c;
-  printf("pa = %x pb = %x pc = %x\n", pa, pb, pc);
-  printf("a = %p b = %p c = %p\n", &a, &b, &c);
-
-  printf("a = %d b = %lf c = %c\n", a, b, c);
-  printf("*pa = %d *pb = %lf *pc = %c\n", *pa, *pb, *pc);
-
-
+  for (i = 0; i<6; i++)
+  {
+    for (k = 0; k<5; k++)
+    {
+        printf("%d학년 %d반: %d명\n", i, k+1, ar0[i][k]);
+    }
+    printf("\n");
+  }
   return 0;
 }

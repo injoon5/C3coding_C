@@ -5,18 +5,12 @@
 
 int main()
 {
-  int i, k;
-  int ar0[4][7] = {{28, 26, 30, 29, 28, 24, 29}, {22, 10, 29, 78, 36, 24, 29}, {38, 30, 24, 22, 25, 27, 49}, {23, 30, 29, 38, 46, 24, 59}};
+  char *sp = "Hello String";
+  char *name = "씨큐브코딩";
 
-  for (i = 0; i<4; i++)
-  {
-    for (k = 0; k<7; k++)
-    {
-        printf("%d반 %d\n", i, ar0[i][k]);
-    }
-    printf("\n");
-  }
-  
-
+  printf("%d %d\n", sp, "Hello String");
+  printf("%d %d\n", name, "씨큐브코딩");
+  printf("%s %s\n", sp, "Hello String");
+  printf("%s %s\n", name, "씨큐브코딩");
   return 0;
 }
